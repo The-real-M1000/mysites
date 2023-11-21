@@ -1,45 +1,45 @@
 <!DOCTYPE html>
 <html lang="es">
-<cabeza>
-  <meta juego de caracteres="UTF-8">
-  <título>
+<head>
+  <meta charset="UTF-8">
+  <title>
     <div>
-        <img src="MYSITES.png" alt="MISITOS">
+        <img src="MYSITES.png" alt="MYSITES">
     </div>
-  </título>
-  <estilo>
- cuerpo {
+  </title>
+  <style>
+    body {
       font-family: sans-serif;
-      tamaño fuente: dieciséispx;
-      color de fondo: # 333 ;
+      font-size: 16px;
+      background-color: #333;
     }
 
- cabezazo {
-      color de fondo: # 000 ;
-      color: #ffffff ;
-      texto-alinear: centro;
-      acolchado: 20)))px;
+    header {
+      background-color: #000;
+      color: #ffffff;
+      text-align: center;
+      padding: 20px;
     }
 
- h1 {
-      tamaño fuente: 24))px;
-      peso de fuente: audaz;
+    h1 {
+      font-size: 24px;
+      font-weight: bold;
     }
 
- principal {
-      mostrar: flexionarionar;
-      dirección flexible: columna;
-      alinear elementos: centro;
-      ancho: 500px;
-      margen: 0 automático;
+    main {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 500px;
+      margin: 0 auto;
     }
 
- .logos {
-      mostrar: flexionarionar;
-      justifique-contenido: centro;
-      alinear elementos: centro;
-      envoltura flexible: ahora;
-      margen superior: 20)))px;
+    .logos {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: nowrap;
+      margin-top: 20px;
     }
 
     .logos a {
@@ -54,9 +54,9 @@
     }
 
     .logos a img {
- ancho: 100% ;
- altura: 100% ;
- ajuste de objeto: relleno ;
+      width: 100%;
+      height: 100%;
+      object-fit: fill;
       border: 1px solid #000;
       border-radius: 50%;
 
@@ -69,14 +69,14 @@
     }
 
     .logos a:hover {
- color de fondo: # 000 ;
+      background-color: #000;
       color: #ffffff;
     }
   </style>
 </head>
 <body>
 <header>
-    <img src="MYSITES.png" alt="MISITOS" ancho="100" altura="100">
+    <img src="MYSITES.png" alt="MYSITES" width="100" height="100">
 </header>
 <main>
   <div class="logos">
@@ -89,7 +89,7 @@
     <a href="https://www.hbomax.com" target="">
       <img src="hbo-max-icon.png" alt="HBO Max">
     </a>
-    <a href="https://www.disneyplus.com" objetivo="">
+    <a href="https://www.disneyplus.com" target="">
       <img src="disney-plus.png" alt="Disney+">
     </a>
     <a href="https://www.starplus.com" target="">
@@ -99,7 +99,6 @@
       <img src="justwatch.jpeg" alt="justwatch">
     </a>
   </div>
-</principal>
-</cuerpo>
+</main>
+</body>
 </html>
-
